@@ -12,8 +12,8 @@
 	<body>
 		<div id="mainBox">	
 			<form action="index.php" method="post">
-    			<p><input type="text" name="emailFrom" placeholder="Sender Email" value="Sender Email" size="94"/></p>
-    			<p><input type="text" name="emailTo" placeholder="Receiver Email" value="Receiver Email" size="94"/></p>
+    			<p><input type="text" name="emailFrom" placeholder="Sender Email" value="Sender Email" size="94" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" title="email halt"/></p>
+    			<p><input type="text" name="emailTo" placeholder="Receiver Email" value="Receiver Email" size="94" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" title="email halt"/></p>
     			<p><input type="text" name="emailSubject" placeholder="Subject" value="Subject" size="94"/></p>
     			<p><textarea name="emailText" placeholder="Email Text" rows="10" cols="68"></textarea></p>
     			<input type="hidden" name="send" value="1" />
