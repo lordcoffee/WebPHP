@@ -9,7 +9,6 @@ body {
 }
 #mainBox{
   background-color: white;
-  border: 1px solid black;
   width: 500px;
   height: 300px;
   position: absolute;
