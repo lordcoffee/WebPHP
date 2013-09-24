@@ -1,0 +1,22 @@
+html {
+  height: 100.05%;
+}
+body {
+  background-color: #3B5998;
+  height: 100%;
+  font-family: arial;
+  font-size: 14px;
+}
+#mainBox{
+  background-color: white;
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -170px;
+  margin-left: -270px;
+  border-radius: 10px;
+  padding: 20px;
+}
