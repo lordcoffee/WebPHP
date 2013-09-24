@@ -18,7 +18,8 @@
     			<p><textarea name="emailText" placeholder="Email Text" rows="10" cols="68"></textarea></p>
     			<input type="hidden" name="send" value="1" />
     			<input type="submit" value="Send Email"/>
-    		</form>
+    		</form>				
 		</div>
 	</body>
 </html>
+
