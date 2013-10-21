@@ -1,0 +1,55 @@
+body {
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 12px;
+	font-style: Verdana, Tahoma, sans-serif;
+}
+header{  
+	background-image: url(../images/header.png);
+    position: absolute;
+	width: 600px;
+	height: 75px;  
+}
+nav{  
+    position: absolute;
+	width: 560px;
+	height: 50px;  
+}
+footer{  
+	position:fixed;
+    bottom:0px;
+	width: 600px;
+	height: 30px;
+	color: white;
+}
+#mainBox{
+	position: absolute;
+  	width: 600px;
+  	height: 100%;
+  	left: 50%;
+  	margin-left: -300px;
+}
+#workBox{
+	position: absolute;
+  	background-color: white;
+  	border-radius: 10px;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	margin-top: 80px;
+  	margin-bottom: 40px;
+  	padding: 20px;
+}
+#contentBox{
+	position: absolute;
+  	width: 560px;
+  	top: 0;
+  	bottom: 0;
+  	margin-top: 90px;
+  	margin-bottom: 20px;
+  	overflow: auto;
+}
