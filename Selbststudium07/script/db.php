@@ -14,11 +14,11 @@
        		$pdo =  new PDO(DB_CONNECTION, DB_USER, DB_PASSWORD);
 			
         	if (DEBUGGING == true && $pdo != null) {
-            	echo 'Connection to DB established ..';
+            	echo 'successfully connected to db';
         	}
         	return $pdo;
         } catch(PDOException $e) {
-        	die ('Could not open connection to '.DB_CONNECTION);
+        	echo $e->getMessage();
         }
 	}
 
